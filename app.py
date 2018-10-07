@@ -24,5 +24,5 @@ def statik(skra):
 def villa(error):
     return"<h2 style='color:red'>This site cant be found aka 404</h2>"
 
-run(host="localhost",port="8080",debug=True)
+run(host="0.0.0.0",port="argv[1]",debug=True)
 #os.environ.get("port")
